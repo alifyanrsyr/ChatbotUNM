@@ -1,0 +1,34 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.loading-screen-edB {
+  box-sizing: border-box;
+  padding: 26.2rem 47rem;
+  width: 100%;
+  height: 102.4rem;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  background-color: #d9ebff;
+
+  .whatsapp-image-2023-10-10-at-0707-1-a9T {
+    object-fit: cover;
+    vertical-align: top;
+    border-radius: 30rem;
+    width: 50rem;
+    height: 50rem;
+  }
+}

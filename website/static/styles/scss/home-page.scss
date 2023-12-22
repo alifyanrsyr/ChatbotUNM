@@ -1,0 +1,163 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.home-page-DNm {
+  box-sizing: border-box;
+  padding-bottom: 4.7rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #d9ebff;
+
+  .navbar-sTK {
+    padding: 1.5rem 8.9rem 1.5rem 14rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.25);
+    background-color: rgba(255, 252, 252, 0.2899999917);
+    flex-shrink: 0;
+    box-sizing: border-box;
+
+    .logo-pQV {
+      height: 7.3rem;
+      box-shadow: 0.4rem 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+      background-image: url('REPLACE_IMAGE:534d1305d685138c52701acd8fab3badbb107abf');
+      flex-shrink: 0;
+      margin-right: 93.2rem;
+      width: 7.3rem;
+      background-size: 116.438% 116.438%;
+      background-position: -0.6rem -0.6rem;
+      border-radius: 3.65rem;
+
+      .logo-pQV-bg {
+        width: 7.3rem;
+        height: 7.3rem;
+        position: relative;
+        background-image: url('REPLACE_IMAGE:534d1305d685138c52701acd8fab3badbb107abf');
+      }
+    }
+    .botunm-WAq {
+      margin-top: 0.4rem;
+      font-size: 5rem;
+      font-weight: 900;
+      line-height: 1.3625;
+      color: #ffffff;
+      font-family: Nunito, 'Source Sans Pro';
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+  }
+  .auto-group-3com-svV {
+    margin-left: 2.6rem;
+    width: 133.3rem;
+    height: 87.4rem;
+    position: relative;
+    flex-shrink: 0;
+
+    .ikon-yCq {
+      vertical-align: top;
+      width: 79.8rem;
+      height: 87.4rem;
+      position: absolute;
+      left: 0;
+      top: 0;
+      object-fit: contain;
+    }
+    .ikon2-GSq {
+      position: absolute;
+      left: 11rem;
+      top: 1.2rem;
+      width: 72rem;
+      height: 79.4rem;
+
+      .chatbot-1-yMF {
+        left: 0;
+        top: 24.5rem;
+        object-fit: cover;
+        vertical-align: top;
+        width: 55.6rem;
+        height: 54.9rem;
+        position: absolute;
+      }
+      .chatbot1-1-T1X {
+        vertical-align: top;
+        width: 70.4rem;
+        height: 66.9rem;
+        position: absolute;
+        left: 1.6rem;
+        top: 0;
+        object-fit: cover;
+      }
+    }
+    .text-99F {
+      left: 79.8rem;
+      top: 14.6rem;
+      width: 53.5rem;
+      height: 36rem;
+      position: absolute;
+
+      .bot-layanan-akademik-dan-kemahasiswaan-EAh {
+        color: #ffffff;
+        font-family: Nunito, 'Source Sans Pro';
+        height: 36rem;
+        left: 0;
+        font-size: 7rem;
+        font-weight: 800;
+        line-height: 1.2857142857;
+        width: 53.4rem;
+        position: absolute;
+        top: 0;
+        text-align: right;
+      }
+      .universitas-negeri-makassar-g2h {
+        white-space: nowrap;
+        height: 9rem;
+        position: absolute;
+        left: 5.9rem;
+        font-weight: 700;
+        font-family: Nunito, 'Source Sans Pro';
+        color: #757474;
+        width: 47.6rem;
+        top: 25.8rem;
+        text-align: right;
+        font-size: 3.6rem;
+        line-height: 2.5;
+      }
+    }
+    .tombol-UDT {
+      height: 8rem;
+      font-size: 3.6rem;
+      line-height: 0.8333333333;
+      letter-spacing: 0.54rem;
+      white-space: nowrap;
+      background-color: #98c0ec;
+      border-radius: 1.5rem;
+      position: absolute;
+      left: 104.2rem;
+      text-align: center;
+      font-weight: 800;
+      display: flex;
+      width: 29rem;
+      color: #ffffff;
+      top: 53.4rem;
+      font-family: Nunito, 'Source Sans Pro';
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0.8rem 0.5rem rgba(0, 0, 0, 0.25);
+    }
+  }
+}

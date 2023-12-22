@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="theme-color" content="#000000" />
+		<title>MAIN PAGE</title>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css?family=Nunito%3A700%2C900"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A700%2C900"
+		/>
+
+		<!-- feather icons -->
+		<script src="https://unpkg.com/feather-icons"></script>
+
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css?family=Istok+Web%3A700"
+		/>
+		<link
+			rel="stylesheet"
+			href="{{ url_for('static', filename='./styles/main-page-upZ.css') }}"
+		/>
+	</head>
+	<body>
+		<!-- navbar start -->
+		<nav class="navbar-Rmw">
+			<div class="icon-nav">
+				<a href="/login"><i data-feather="log-out" class="log-out"></i></a>
+				<div class="bot-icon">
+					<div class="ellipse-7-TTj"></div>
+					<div class="auto-group-l4h1-ieZ">
+						<p class="botunm-sQy">BotUNM</p>
+						<div class="group-2-U7w">
+							<div class="ellipse-2-1df"></div>
+							<p class="online-8iH">Online</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<!-- navbar end -->
+
+		<!-- massage zone start -->
+
+		<div class="massage-zone-ySm" id="message-zone">
+			<!-- Pesan dari bot dan pengguna akan ditambahkan di sini secara dinamis -->
+		</div>
+
+		<div class="tabbar-os3">
+			<form id="chat-form">
+				<div class="pesan-KaV">
+					<div class="container-input">
+						<input
+							type="text"
+							class="ketik-pesan-f8Z"
+							name="input-user"
+							id="input-user"
+							placeholder="Ketik Pesan..."
+							autocomplete="off"
+						/>
+						<button type="submit" class="clip-path-group-kfo">
+							<img
+								src="{{ url_for('static', filename='./assets/clip-path-group-Vpq.png') }}"
+								alt="Submit"
+							/>
+						</button>
+					</div>
+				</div>
+			</form>
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+		<script>
+			$(document).ready(function () {
+				// Handler untuk form pengiriman pesan
+
+				$('#chat-form').submit(function (event) {
+					event.preventDefault(); // Mencegah form dikirim secara tradisional
+
+					var userInput = $('#input-user').val();
+
+					// Tambahkan pesan pengguna ke zona pesan
+					$('#message-zone').append(
+						'<div class="bubble1 sender">' + userInput + '</div>'
+					);
+
+					console.log('User Input:', userInput);
+					// Kirim pesan pengguna ke server Flask (gunakan AJAX untuk asinkron)
+					$.ajax({
+						type: 'POST',
+						url: '/get',
+						data: { message: userInput },
+						success: function (response) {
+							// Tambahkan pesan balasan bot ke zona pesan
+							$('#message-zone').append(
+								'<div class="bubble2 receiver">' + response + '</div>'
+							);
+
+							// Kosongkan input pengguna
+							$('#input-user').val('');
+
+							// Scroll ke bawah zona pesan
+							var messageZone = $('#message-zone');
+							console.log('scrollHeight:', messageZone[0].scrollHeight);
+							messageZone.scrollTop(messageZone[0].scrollHeight);
+						},
+						error: function (error) {
+							console.log('Error:', error);
+						},
+					});
+				});
+			});
+		</script>
+
+		<!-- tabbar end -->
+
+		<!-- feather icons -->
+		<script>
+			feather.replace();
+		</script>
+	</body>
+</html>

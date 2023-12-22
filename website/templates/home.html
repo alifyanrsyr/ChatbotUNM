@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="theme-color" content="#000000" />
+		<title>HOME PAGE</title>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A700%2C800%2C900"
+		/>
+
+		<!-- feather icons -->
+		<script src="https://unpkg.com/feather-icons"></script>
+
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css?family=Nunito%3A700%2C800%2C900"
+		/>
+		<link
+			rel="stylesheet"
+			href="{{ url_for('static', filename='./styles/home-page.css') }}"
+		/>
+	</head>
+	<body>
+		<!-- navbar start -->
+		<nav class="navbar-sTK">
+			<div class="logo-pQV">
+				<div class="logo-pQV-bg"></div>
+			</div>
+			<div class="navigation">
+				<a href="#home">Home</a>
+				<a href="#ourTeam">Our Team</a>
+			</div>
+			<p>BotUNM</p>
+		</nav>
+		<!-- navbar end -->
+
+		<!-- home section start -->
+		<section class="home" id="home">
+			<div class="shape-bg">
+				<div class="elips1"></div>
+				<div class="elips2"></div>
+				<div class="elips3"></div>
+				<div class="ikon">
+					<img
+						src="{{ url_for('static', filename='./assets/chatbot-1-wuf.png') }}"
+						alt=""
+						class="img1"
+					/>
+					<img
+						src="{{ url_for('static', filename='./assets/chatbot1-1-tpD.png') }}"
+						alt=""
+						class="img2"
+					/>
+				</div>
+			</div>
+			<main class="content">
+				<div class="main-content">
+					<p class="bot-layanan-akademik-dan-kemahasiswaan-EAh">
+						Bot Layanan Akademik dan Kemahasiswaan
+					</p>
+					<span class="universitas-negeri-makassar-g2h">
+						Universitas Negeri Makassar
+					</span>
+					<a href="/login" class="btn">L O G I N</a>
+				</div>
+			</main>
+		</section>
+		<!-- home section end -->
+
+		<!-- our team section start -->
+		<section class="our-team" id="ourTeam">
+			<div class="row">
+				<h3>Our Team</h3>
+				<p>
+					Proyek ini adalah hasil dari dedikasi dan kolaborasi yang erat
+					antar-anggota tim kami. adapun job desk dari tiap anggota kami yang
+					bekerja sama guna mewujudkan chatbot ini
+				</p>
+				<div class="content">
+					<div class="card">
+						<div class="person-img">
+							<img
+								src="{{ url_for('static', filename='./assets/team/Dita Widayanti Setiawan.jpeg') }}"
+								alt=""
+							/>
+						</div>
+						<div class="person-content">
+							<h3>Dita Widayanti Setiawan</h3>
+							<h3>Universitas Tadulako</h3>
+							<p>Deployment & ML Engineer</p>
+						</div>
+					</div>
+					<div class="card">
+						<div class="person-img">
+							<img
+								src="{{ url_for('static', filename='./assets/team/Alifia Nuraisyir Aglaia.jpeg') }}"
+								alt=""
+							/>
+						</div>
+						<div class="person-content">
+							<h3>Alifya Nuraisyar A</h3>
+							<h3>Universitas Negeri Makassar</h3>
+							<p>Data & ML Engineer</p>
+						</div>
+					</div>
+					<div class="card">
+						<div class="person-img">
+							<img
+								src="{{ url_for('static', filename='./assets/team/Siska Malau.jpeg') }}"
+								alt=""
+							/>
+						</div>
+						<div class="person-content">
+							<h3>Siska Malau</h3>
+							<h3>Universitas Sam Ratulangi</h3>
+							<p>Editor & Desain Logo</p>
+						</div>
+					</div>
+					<div class="card">
+						<div class="person-img">
+							<img
+								src="{{ url_for('static', filename='./assets/team/Novianti Aziz.png') }}"
+								alt=""
+							/>
+						</div>
+						<div class="person-content">
+							<h3>Noviyanti Azis</h3>
+							<h3>Universitas Fajar Makassar</h3>
+							<p>Technical Writer</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- our team section end -->
+
+		<!-- feather icons -->
+		<script>
+			feather.replace();
+		</script>
+	</body>
+</html>

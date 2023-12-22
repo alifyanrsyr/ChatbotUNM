@@ -1,0 +1,329 @@
+{
+	"intents": [
+		{
+			"tag": "greeting",
+			"patterns": [
+				"halo",
+				"Hi there",
+				"How are you",
+				"Is anyone there?",
+				"Hey",
+				"Hola",
+				"Hello",
+				"Good day",
+				"hallo",
+				"hai",
+				"halo",
+				"hei",
+				"hi",
+				"hy",
+				"bro",
+				"sis",
+				"kawan",
+				"halo kawan"
+			],
+			"responses": [
+				"Hello",
+				"thanks for asking",
+				"Hi there, how can I help?",
+				"Hai! Salam kenal yaaa!!",
+				"Tentu saja!, ada yang bisa saya bantu?",
+				"Halo!",
+				"Hello!"
+			]
+		},
+		{
+			"tag": "Help",
+			"patterns": [
+				"Apakah kamu bisa membantu saya?",
+				"Bantu saya dalam menemukan informasi",
+				"Apakah kamu bisa membantu menemukan informasi?",
+				"Apakah kamu bisa membantu saya?",
+				"Bantu saya"
+			],
+			"responses": [
+				"Yaa! tentu saja. Apa yang bisa saya bantu?",
+				"Sure! Informasi apa yang kamu butuhkan?",
+				"Tentu kawan! saya akan membantu anda...",
+				"Saya akan membantu anda...",
+				"Baik!! Apa yang kamu butuhkan?",
+				"Informasi apa yang ingin kamu dapatkan?"
+			]
+		},
+		{
+			"tag": "Ucapan_Selamat_Pagi",
+			"patterns": ["pagi", "Pagii!!", "good morning bot!", "Selamat Pagi"],
+			"responses": [
+				"Selamat Pagi Jugaa!",
+				"Pagi Juga!!",
+				"Good Morning Too...",
+				"Selamat Pagi..."
+			]
+		},
+
+		{
+			"tag": "Ucapan_Selamat_Siang",
+			"patterns": ["Siang", "Siang!!", "good evening bot!", "Selamat Siang"],
+			"responses": [
+				"Selamat Siang Jugaa!",
+				"Siang Juga!!",
+				"Good Evening Too...",
+				"Selamat Siang..."
+			]
+		},
+
+		{
+			"tag": "Ucapan_Selamat_Malam",
+			"patterns": ["Malam", "Malam!!", "good night bot!", "Selamat Malam"],
+			"responses": [
+				"Selamat Malam Jugaa!",
+				"Malam Juga!!",
+				"Good Night Too...",
+				"Selamat Malam..."
+			]
+		},
+		{
+			"tag": "salam",
+			"patterns": [
+				"Assalamualaikum Warahmatullahi Wabarakatuh",
+				"Assalamualaikum Wr.Wb",
+				"Assalamualaikum Wr Wb",
+				"Assalamualaikum",
+				"assalamualaikum",
+				"assalamualaikum wr wb",
+				"assalamualaikum wr.wb",
+				"Assalamualaikum WR.WB",
+				"assalamu'alaikum ",
+				"assalamualikum warahmatullahi wabarakatuh",
+				"assalamua'likum warahmatullahi wabarakatuh",
+				"Assalamu'alaikum warahmatullahi wabarakatuh"
+			],
+			"responses": [
+				"Waalaikumsalam Wr Wb, salam kenal ya! Ada yang bisa saya bantu?",
+				"Waalaikumsalam Warahmatullahi Wabarakatuh",
+				"Waalaikumsalam Wr. Wb"
+			]
+		},
+
+		{
+			"tag": "goodbye",
+			"patterns": [
+				"Bye",
+				"See you later",
+				"Goodbye",
+				"Nice chatting to you",
+				"bye",
+				"Till next time",
+				"Dah",
+				"Bye",
+				"by",
+				"Byee",
+				"Good bye",
+				"Selamat tinggal",
+				"Sampai jumpa",
+				"Bai",
+				"See you",
+				"okee byee"
+			],
+			"responses": [
+				"See you!",
+				"Have a nice day",
+				"Bye! Come back again soon",
+				"Bye!",
+				"by",
+				"Dadahh!",
+				"Good bye!",
+				"Dahh, semoga harimu menyenangkan yaa!",
+				"Sampai jumpa lagi!",
+				"See u! Senang bisa membantu"
+			]
+		},
+
+		{
+			"tag": "Tolong",
+			"patterns": [
+				"tolong",
+				"tolong saya",
+				"saya butuh bantuanmu",
+				"bantu saya dalam masalah ini"
+			],
+			"responses": [
+				"yaa! tentu saya akan membantu mu",
+				"Baik, apa yang bisa saya bantu?",
+				"Tentu, saya akan membantu kamu!",
+				"Jangan ragu kawan! saya akan membantu kamu dalam menyelesaikan masalah tersebut.",
+				"Dengan senang hati guys!"
+			]
+		},
+
+		{
+			"tag": "Terimakasih",
+			"patterns": [
+				"Thanks",
+				"Thank you",
+				"That's helpful",
+				"Awesome, thanks",
+				"Thanks for helping me",
+				"Senang bisa membantu",
+				"terimakasih!",
+				"makasih sudah membantu!",
+				"Thankyou bot",
+				"sipp"
+			],
+			"responses": [
+				"Happy to help!",
+				"Any time!",
+				"My pleasure",
+				"Yashh! Yourwelcome",
+				"Ya, sama-sama",
+				"Senang bisa membantu mu kawan!",
+				"Tentu! senang bisa membantu kamu!"
+			]
+		},
+
+		{
+			"tag": "Perubahan_Rencana_Studi",
+			"patterns": [
+				"Bagaimana saya bisa mendaftar/mengubah mata kuliah?",
+				"Bagaimana cara prs?",
+				"Bagaimana mekanisme prs?",
+				"Apa saja yang dibutuhkan untuk prs?",
+				"Melalui apa saya bisa melakukan prs?",
+				"Bagaimana saya bisa melakukan jadwal PRS?"
+			],
+			"responses": [
+				"Terimakasih atas pertanyaannya!! Berikut langkah-langkah untuk melakukan perubahan rencana studi : \n1. Login menggunakan Nim dan Password di siaunmacid \n2. Klik (Daftar Peserta PRS) pada menu Registrasi Mahasiswa \n3. Isi Nim, pilih (Tahun Akademik Semester), kemudian lihat (Status) \n4. Lalu klik (Daftar PRS) \n5. Kembali ke menu Registrasi Mahasiswa, kemudian klik PRS \n6. Pilih mata kuliah yang ingin diubah \n7. Cek kembali mata kuliah yang telah diubah untuk memastikan tidak adanya kekeliruan \n8. Klik simpan \n9. Terakhir, klik (Cetak PRS)",
+
+				"Kalian data mengetahui cara melakukan prs dengan cara : \n1. Login menggunakan Nim dan Password di siaunmacid \n2. Klik (Daftar Peserta PRS) pada menu Registrasi Mahasiswa \n3. Isi Nim, pilih (Tahun Akademik Semester), kemudian lihat (Status) \n4. Lalu klik (Daftar PRS) \n5. Kembali ke menu Registrasi Mahasiswa, kemudian klik PRS \n6. Pilih mata kuliah yang ingin diubah \n7. Cek kembali mata kuliah yang telah diubah untuk memastikan tidak adanya kekeliruan \n8. Klik simpan \n9. Terakhir, klik (Cetak PRS)",
+
+				"Tentu saja! teman-teman dapat mengikuti langkah-langkah berikut : \n1. Login menggunakan Nim dan Password di siaunmacid \n2. Klik (Daftar Peserta PRS) pada menu Registrasi Mahasiswa \n3. Isi Nim, pilih (Tahun Akademik Semester), kemudian lihat (Status) \n4. Lalu klik (Daftar PRS) \n5. Kembali ke menu Registrasi Mahasiswa, kemudian klik PRS \n6. Pilih mata kuliah yang ingin diubah \n7. Cek kembali mata kuliah yang telah diubah untuk memastikan tidak adanya kekeliruan \n8. Klik simpan \n9. Terakhir, klik (Cetak PRS)",
+
+				"Terimakasih atas pertanyaannya guys! Kalian dapat mengetahui cara prs melalui langkah-langkah berikut : \n1. Login menggunakan Nim dan Password di siaunmacid \n2. Klik (Daftar Peserta PRS) pada menu Registrasi Mahasiswa \n3. Isi Nim, pilih (Tahun Akademik Semester), kemudian lihat (Status) \n4. Lalu klik (Daftar PRS) \n5. Kembali ke menu Registrasi Mahasiswa, kemudian klik PRS \n6. Pilih mata kuliah yang ingin diubah \n7. Cek kembali mata kuliah yang telah diubah untuk memastikan tidak adanya kekeliruan \n8. Klik simpan \n9. Terakhir, klik (Cetak PRS)",
+
+				"Saya akan membantu menjawab yaa, untuk persyaratan untuk melakukan prs teman-teman dapat mengikuti beberapa langkah-langkah ini : \n1. Login menggunakan Nim dan Password di siaunmacid \n2. Klik (Daftar Peserta PRS) pada menu Registrasi Mahasiswa \n3. Isi Nim, pilih (Tahun Akademik Semester), kemudian lihat (Status) \n4. Lalu klik (Daftar PRS) \n5. Kembali ke menu Registrasi Mahasiswa, kemudian klik PRS \n6. Pilih mata kuliah yang ingin diubah \n7. Cek kembali mata kuliah yang telah diubah untuk memastikan tidak adanya kekeliruan \n8. Klik simpan \n9. Terakhir, klik (Cetak PRS)",
+
+				"Tentu!! kamu dapat mengetahui jadwal prs dengan mengunjungi laman web SIA UNM atau dapat mengakses link berikut : https://sia.unm.ac.id/"
+			]
+		},
+
+		{
+			"tag": "Beasiswa",
+			"patterns": [
+				"Apakah ada program beasiswa yang tersedia?",
+				"Beasiswa apa saja yang sedang berjalan?",
+				"Beasiswa apa saja yang akan datang?",
+				"Bagaimana cara mengajukan beasiswa?",
+				"Apa saja persyaratan untuk mengikuti program beasiswa?",
+				"Saya memiliki pertanyaan tentang beasiswa yang tersedia. Bisakah Anda memberikan informasi lebih lanjut",
+				"Apakah ada program beasiswa untuk saat ini?"
+			],
+			"responses": [
+				"Yaaa, kamu dapat mengetahui lebih lanjut mengenai beasiswa maupun cara mengajukan beasiswa melalui link : https://ft.unm.ac.id/ ",
+				"Tentu saja!! kamu dapat mengetahui program beasiswa melalui website FT UNM",
+				"Terimakasih atas pertanyaannya! mahasiswa dapat mengunjungi web atau dapat mengakses link : https://ft.unm.ac.id/ ",
+				"Mahasiswa(i) dapat mengetahui program beasiswa yang tersedia maupun yang akan datang melalui website FT UNM",
+				"Makasih pertanyaannya!! untuk persyaratan mengikuti program beasiswa saya tidak bisa menjelaskan secara spesifik. Tetapi jika ingin mengetahui lebih lanjut kalian bisa mengakses link berikut : https://ft.unm.ac.id/ ",
+				"Hai!, untuk mendapatkan informasi lebih lanjut mengenai program beasiswa yang tersedia mahasiswa dapat mengunjungi website FT UNM"
+			]
+		},
+
+		{
+			"tag": "Persuratan",
+			"patterns": [
+				"Dimana saya bisa mendapatkan tanda tangan untuk persuratan?",
+				"Bagaimana saya bisa mendapatkan tanda tangan pimpinan jurusan?",
+				"Apakah saya bisa mendapatkan tanda tangan perihal surat?"
+			],
+			"responses": [
+				"Tentu!, kalian bisa mendapatkan tanda tangan dengan cara mengambil nomor antrian dengan memilih kepada siapa kalian ingin temui, lalu menunggu hingga nomor antrian di panggil.",
+				"Sure!!, kalian bisa mendapatkan tanda tangan dengan cara mengambil nomor antrian dengan memilih kepada siapa kalian ingin temui, lalu menunggu hingga nomor antrian di panggil.",
+				"kalian bisa mendapatkan tanda tangan dengan cara mengambil nomor antrian dengan memilih kepada siapa kalian ingin temui, lalu menunggu hingga nomor antrian di panggil."
+			]
+		},
+
+		{
+			"tag": "Cuti_Akademik",
+			"patterns": [
+				"Apa persyaratan untuk mengajukan cuti akademik?",
+				"Jika saya ingin mengajukan cuti akademik apa saja berkas yang perlu saya ajukan?",
+				"Berkas apa saja yang harus siapkan untuk cuti akademik?",
+				"cara untuk mengurus cuti akademik",
+				"bagaimana prosedur untuk cuti akademik?",
+				"Bagaimana mekanisme untuk pembebasan kuliah?",
+				"Surat apa saja yang diperlukan untuk cuti akademik?"
+			],
+			"responses": [
+				"Untuk pengurusan cuti akademik di Fakultas Teknik Universitas Negeri Makassar, Anda dapat mengikuti langkah-langkah berikut: \n1. Membuat surat permohonan cuti kuliah yang ditandatangani oleh orang tua/wali dan pemohonan, \n2. Melampirkan transkrip nilai semester sebelumnya, KRS semester sebelumnya, dan bukti UKT semester terakhir, \n3. Mendapatkan persetujuan dari penasehat akademik dan diketahui oleh ketua program studi/ketua jurusan, \n4. Melampirkan foto copy KTM dan bukti bayar UKT/SPP semester sebelumnya, \n5. Mengajukan surat permohonan cuti akademik ke dekan Fakultas Teknik UNM, \nAnda dapat menemukan formulir permohonan cuti akademik di link : http://ft.unm.ac.id/ ",
+
+				"Yaa, kamu bisa melakukan cuti akademik dengan cara : \n1. Membuat surat permohonan cuti kuliah yang ditandatangani oleh orang tua/wali dan pemohonan, \n2. Melampirkan transkrip nilai semester sebelumnya, KRS semester sebelumnya, dan bukti UKT semester terakhir, \n3. Mendapatkan persetujuan dari penasehat akademik dan diketahui oleh ketua program studi/ketua jurusan, \n4. Melampirkan foto copy KTM dan bukti bayar UKT/SPP semester sebelumnya, \n5. Mengajukan surat permohonan cuti akademik ke dekan Fakultas Teknik UNM, \nAnda dapat menemukan formulir permohonan cuti akademik di link : http://ft.unm.ac.id/",
+
+				" Untuk prosedur melakukan cuti akademik kamu bisa mengikuti beberapa langkah-langkah sebagai berikut : \n1. Membuat surat permohonan cuti kuliah yang ditandatangani oleh orang tua/wali dan pemohonan, \n2. Melampirkan transkrip nilai semester sebelumnya, KRS semester sebelumnya, dan bukti UKT semester terakhir, \n3. Mendapatkan persetujuan dari penasehat akademik dan diketahui oleh ketua program studi/ketua jurusan, \n4. Melampirkan foto copy KTM dan bukti bayar UKT/SPP semester sebelumnya, \n5. Mengajukan surat permohonan cuti akademik ke dekan Fakultas Teknik UNM, \nAnda dapat menemukan formulir permohonan cuti akademik di link : http://ft.unm.ac.id/",
+
+				"Mekanisme untuk pembebasan kuliah dapat di liat atau mengikuti langkah-langkah berikut : \n1. Membuat surat permohonan cuti kuliah yang ditandatangani oleh orang tua/wali dan pemohonan, \n2. Melampirkan transkrip nilai semester sebelumnya, KRS semester sebelumnya, dan bukti UKT semester terakhir, \n3. Mendapatkan persetujuan dari penasehat akademik dan diketahui oleh ketua program studi/ketua jurusan, \n4. Melampirkan foto copy KTM dan bukti bayar UKT/SPP semester sebelumnya, \n5. Mengajukan surat permohonan cuti akademik ke dekan Fakultas Teknik UNM, \nAnda dapat menemukan formulir permohonan cuti akademik di link : http://ft.unm.ac.id/",
+
+				"Cara untuk mengurus cuti akademik kamu dapat mengikuti langkah-langkah berikut: \n1. Membuat surat permohonan cuti kuliah yang ditandatangani oleh orang tua/wali dan pemohonan, \n2. Melampirkan transkrip nilai semester sebelumnya, KRS semester sebelumnya, dan bukti UKT semester terakhir, \n3. Mendapatkan persetujuan dari penasehat akademik dan diketahui oleh ketua program studi/ketua jurusan, \n4. Melampirkan foto copy KTM dan bukti bayar UKT/SPP semester sebelumnya, \n5. Mengajukan surat permohonan cuti akademik ke dekan Fakultas Teknik UNM, \nAnda dapat menemukan formulir permohonan cuti akademik di link : http://ft.unm.ac.id/",
+
+				"Jika kamu ingin mengajukan permohonan cuti akademik, kamu dapat mengikuti step-step berikut: \n1. Membuat surat permohonan cuti kuliah yang ditandatangani oleh orang tua/wali dan pemohonan, \n2. Melampirkan transkrip nilai semester sebelumnya, KRS semester sebelumnya, dan bukti UKT semester terakhir, \n3. Mendapatkan persetujuan dari penasehat akademik dan diketahui oleh ketua program studi/ketua jurusan, \n4. Melampirkan foto copy KTM dan bukti bayar UKT/SPP semester sebelumnya, \n5. Mengajukan surat permohonan cuti akademik ke dekan Fakultas Teknik UNM, \nAnda dapat menemukan formulir permohonan cuti akademik di link : http://ft.unm.ac.id/"
+			]
+		},
+
+		{
+			"tag": "UKT",
+			"patterns": [
+				"Bagaimana pengurusan penurunan ukt?",
+				"Bagaimana mekanisme penurunan ukt?",
+				"Apa persyaratan penurunan ukt?",
+				"Berkas apa saja yang perlu disiapkan untuk pengurusan penurunan ukt?",
+				"Info penurunan ukt",
+				"Bagaimana cara mendapatkan penurunan ukt?",
+				"Ke siapa kita akan mengajukan penurunan ukt?",
+				"Bagaimana pengurusan surat penurunan ukt?"
+			],
+			"responses": [
+				"Untuk pengurusan penurunan UKT kalian bisa memenuhi persyaratan berikut: \n1. Mahasiswa semester 9 untuk S1& D4 dan 7 untuk D3 (Diploma Tiga) mengambil mata kuliah kurang atau sama dengan 6 (enam) SKS maka mahasiswa tersebut membayar paling tinggi 50% dari besaran UKT terakhir. Syarat dokumen adalah dengan melampiran surat pernyataan mengambil mata kuliah kurang atau sama dengan 6 sks  transkrip nilai dan bukti pembayaran UKT terakhir,\n2. Mahasiswa yang  telah menyelesaikan seluruh pembelajaran, namun tersisa  hanya  skripsi/tugas akhir, dibebaskan dari kewajiban membayar UKT. Syarat dokumen adalah surat pernyataan (DOWNLOAD), transkrip nilai dan bukti pembayaran UKT, \n3. Mahasiswa sedang cuti kuliah dibebaskan dari kewajiban membayar UKT. Syarat dokumen adalah surat pengantar dari jurusan/prodi, bukti pembayaran UKT terakhir dan Transkrip nilai, \n4. Mahasiswa, orang tua mahasiswa, atau pihak lain yang membiayai mahasiswa mengalami penurunan kemampuan ekonomi dapat mengajukan pembebasan sementara UKT; pengurangan UKT; perubahan kelompok UKT; atau pembayaran UKT secara mengangsur dengan melampirkan berkas pendukung sebagai bukti penurunan kemampuan ekonominya. Mahasiswa harus memenuhi 8 Kriteria yang telah ditetapkan. Syarat dokumen adalah melampirkan Bukti pembayaran UKT,  Kartu Keluarga, Fotocopy legalisir Bukti Pembayaran Gaji bagi pegawai/karyawan atau surat keterangan penghasilan orang tua/wali dari kepala desa/lurah (bukan surat keterangan tidak mampu), kelengkapan dokumen sesuai kriteria yang dipilih, Surat permohonan pengurangan UKT dan perubahan kelompok UKT(DOWNLOAD), Surat Permohonan pembebasan sementara  (Download),  Surat permohonan mengangsur (Download). \nUntuk info yang lebih lanjut dapat mengunjungi link : http://ft.unm.ac.id/ ",
+
+				"Mekanisme penurunan ukt kalian dapat ikuti langkah-langkah sebagai berikut: \n1. Mahasiswa semester 9 untuk S1& D4 dan 7 untuk D3 (Diploma Tiga) mengambil mata kuliah kurang atau sama dengan 6 (enam) SKS maka mahasiswa tersebut membayar paling tinggi 50% dari besaran UKT terakhir. Syarat dokumen adalah dengan melampiran surat pernyataan mengambil mata kuliah kurang atau sama dengan 6 sks  transkrip nilai dan bukti pembayaran UKT terakhir,\n2. Mahasiswa yang  telah menyelesaikan seluruh pembelajaran, namun tersisa  hanya  skripsi/tugas akhir, dibebaskan dari kewajiban membayar UKT. Syarat dokumen adalah surat pernyataan (DOWNLOAD), transkrip nilai dan bukti pembayaran UKT, \n3. Mahasiswa sedang cuti kuliah dibebaskan dari kewajiban membayar UKT. Syarat dokumen adalah surat pengantar dari jurusan/prodi, bukti pembayaran UKT terakhir dan Transkrip nilai, \n4. Mahasiswa, orang tua mahasiswa, atau pihak lain yang membiayai mahasiswa mengalami penurunan kemampuan ekonomi dapat mengajukan pembebasan sementara UKT; pengurangan UKT; perubahan kelompok UKT; atau pembayaran UKT secara mengangsur dengan melampirkan berkas pendukung sebagai bukti penurunan kemampuan ekonominya. Mahasiswa harus memenuhi 8 Kriteria yang telah ditetapkan. Syarat dokumen adalah melampirkan Bukti pembayaran UKT,  Kartu Keluarga, Fotocopy legalisir Bukti Pembayaran Gaji bagi pegawai/karyawan atau surat keterangan penghasilan orang tua/wali dari kepala desa/lurah (bukan surat keterangan tidak mampu), kelengkapan dokumen sesuai kriteria yang dipilih, Surat permohonan pengurangan UKT dan perubahan kelompok UKT(DOWNLOAD), Surat Permohonan pembebasan sementara  (Download),  Surat permohonan mengangsur (Download). \nUntuk info yang lebih lanjut dapat mengunjungi link : http://ft.unm.ac.id/ ",
+
+				"Persyaratan mengajukan penurunan ukt yaitu : \n1. Mahasiswa semester 9 untuk S1& D4 dan 7 untuk D3 (Diploma Tiga) mengambil mata kuliah kurang atau sama dengan 6 (enam) SKS maka mahasiswa tersebut membayar paling tinggi 50% dari besaran UKT terakhir. Syarat dokumen adalah dengan melampiran surat pernyataan mengambil mata kuliah kurang atau sama dengan 6 sks  transkrip nilai dan bukti pembayaran UKT terakhir,\n2. Mahasiswa yang  telah menyelesaikan seluruh pembelajaran, namun tersisa  hanya  skripsi/tugas akhir, dibebaskan dari kewajiban membayar UKT. Syarat dokumen adalah surat pernyataan (DOWNLOAD), transkrip nilai dan bukti pembayaran UKT, \n3. Mahasiswa sedang cuti kuliah dibebaskan dari kewajiban membayar UKT. Syarat dokumen adalah surat pengantar dari jurusan/prodi, bukti pembayaran UKT terakhir dan Transkrip nilai, \n4. Mahasiswa, orang tua mahasiswa, atau pihak lain yang membiayai mahasiswa mengalami penurunan kemampuan ekonomi dapat mengajukan pembebasan sementara UKT; pengurangan UKT; perubahan kelompok UKT; atau pembayaran UKT secara mengangsur dengan melampirkan berkas pendukung sebagai bukti penurunan kemampuan ekonominya. Mahasiswa harus memenuhi 8 Kriteria yang telah ditetapkan. Syarat dokumen adalah melampirkan Bukti pembayaran UKT,  Kartu Keluarga, Fotocopy legalisir Bukti Pembayaran Gaji bagi pegawai/karyawan atau surat keterangan penghasilan orang tua/wali dari kepala desa/lurah (bukan surat keterangan tidak mampu), kelengkapan dokumen sesuai kriteria yang dipilih, Surat permohonan pengurangan UKT dan perubahan kelompok UKT(DOWNLOAD), Surat Permohonan pembebasan sementara  (Download),  Surat permohonan mengangsur (Download). \nUntuk info yang lebih lanjut dapat mengunjungi link : http://ft.unm.ac.id/ ",
+
+				"Berkah yang harus kalian lengkapi yaitu: \n1. Mahasiswa semester 9 untuk S1& D4 dan 7 untuk D3 (Diploma Tiga) mengambil mata kuliah kurang atau sama dengan 6 (enam) SKS maka mahasiswa tersebut membayar paling tinggi 50% dari besaran UKT terakhir. Syarat dokumen adalah dengan melampiran surat pernyataan mengambil mata kuliah kurang atau sama dengan 6 sks  transkrip nilai dan bukti pembayaran UKT terakhir,\n2. Mahasiswa yang  telah menyelesaikan seluruh pembelajaran, namun tersisa  hanya  skripsi/tugas akhir, dibebaskan dari kewajiban membayar UKT. Syarat dokumen adalah surat pernyataan (DOWNLOAD), transkrip nilai dan bukti pembayaran UKT, \n3. Mahasiswa sedang cuti kuliah dibebaskan dari kewajiban membayar UKT. Syarat dokumen adalah surat pengantar dari jurusan/prodi, bukti pembayaran UKT terakhir dan Transkrip nilai, \n4. Mahasiswa, orang tua mahasiswa, atau pihak lain yang membiayai mahasiswa mengalami penurunan kemampuan ekonomi dapat mengajukan pembebasan sementara UKT; pengurangan UKT; perubahan kelompok UKT; atau pembayaran UKT secara mengangsur dengan melampirkan berkas pendukung sebagai bukti penurunan kemampuan ekonominya. Mahasiswa harus memenuhi 8 Kriteria yang telah ditetapkan. Syarat dokumen adalah melampirkan Bukti pembayaran UKT,  Kartu Keluarga, Fotocopy legalisir Bukti Pembayaran Gaji bagi pegawai/karyawan atau surat keterangan penghasilan orang tua/wali dari kepala desa/lurah (bukan surat keterangan tidak mampu), kelengkapan dokumen sesuai kriteria yang dipilih, Surat permohonan pengurangan UKT dan perubahan kelompok UKT(DOWNLOAD), Surat Permohonan pembebasan sementara  (Download),  Surat permohonan mengangsur (Download). \nUntuk info yang lebih lanjut dapat mengunjungi link : http://ft.unm.ac.id/ ",
+
+				"Kalian dapat mengetahui informasi terkait penurunan ukt dengan mengakses link : http://ft.unm.ac.id/ ",
+
+				"Jika kalian ingin melakukan penurunan ukt, kalian dapat mengikuti langkah-langkah berikut: \n1. Mahasiswa semester 9 untuk S1& D4 dan 7 untuk D3 (Diploma Tiga) mengambil mata kuliah kurang atau sama dengan 6 (enam) SKS maka mahasiswa tersebut membayar paling tinggi 50% dari besaran UKT terakhir. Syarat dokumen adalah dengan melampiran surat pernyataan mengambil mata kuliah kurang atau sama dengan 6 sks  transkrip nilai dan bukti pembayaran UKT terakhir,\n2. Mahasiswa yang  telah menyelesaikan seluruh pembelajaran, namun tersisa  hanya  skripsi/tugas akhir, dibebaskan dari kewajiban membayar UKT. Syarat dokumen adalah surat pernyataan (DOWNLOAD), transkrip nilai dan bukti pembayaran UKT, \n3. Mahasiswa sedang cuti kuliah dibebaskan dari kewajiban membayar UKT. Syarat dokumen adalah surat pengantar dari jurusan/prodi, bukti pembayaran UKT terakhir dan Transkrip nilai, \n4. Mahasiswa, orang tua mahasiswa, atau pihak lain yang membiayai mahasiswa mengalami penurunan kemampuan ekonomi dapat mengajukan pembebasan sementara UKT; pengurangan UKT; perubahan kelompok UKT; atau pembayaran UKT secara mengangsur dengan melampirkan berkas pendukung sebagai bukti penurunan kemampuan ekonominya. Mahasiswa harus memenuhi 8 Kriteria yang telah ditetapkan. Syarat dokumen adalah melampirkan Bukti pembayaran UKT,  Kartu Keluarga, Fotocopy legalisir Bukti Pembayaran Gaji bagi pegawai/karyawan atau surat keterangan penghasilan orang tua/wali dari kepala desa/lurah (bukan surat keterangan tidak mampu), kelengkapan dokumen sesuai kriteria yang dipilih, Surat permohonan pengurangan UKT dan perubahan kelompok UKT(DOWNLOAD), Surat Permohonan pembebasan sementara  (Download),  Surat permohonan mengangsur (Download). \nUntuk info yang lebih lanjut dapat mengunjungi link : http://ft.unm.ac.id/"
+			]
+		},
+		{
+			"tag": "Surat_Keterangan_Aktif_Kuliah",
+			"patterns": [
+				"Bagaimana pengurusan surat keterangan aktif kuliah?",
+				"Apa persyaratan untuk mengurus surat keterangan aktif kuliah?",
+				"Dimana saya bisa mengurus surat keterangan aktif kuliah?"
+			],
+			"responses": [
+				"Tentu kamu bisa mengurus surat keterangan aktif kuliah! \nDengan cara mengikuti beberapa prosedur, yaitu: \n1. Mahasiswa dapat mengunjungi web sikemal untuk mengajukan permintaan surat (Surat Keterangan Aktif Kuliah), \n2. Mahasiswa dapat mengakses link sikemal : http://kemahasiswaan.ft.unm.ac.id/ , \n3. Mahasiswa kemudian diminta untuk melakukan registrasi akun lalu login, \n4. setelah mahasiswa melakukan registrasi/login, mahasiswa dapat memilih untuk mengajukan surat permohonan lalu menunggu beberapa saat untuk dapat di acc dari operator, \n5. Pada saat mahasiswa mengajukan surat permohonan, mahasiswa di minta untuk melampirkan surat bukti pembayaran UKT terakhir dalam bentuk pdf, \n6. Setelah mahasiswa mengajukan dan melengkapi serta telah di acc oleh operator maka akan muncul keterangan cetak yang kemudian mahasiswa diminta untuk mencetak surat tersebut, \n7. Tahap terakhir setelah mahasiswa mencetak surat, kemudian surat tersebut dibawa kepada WD3 atau Wakil Dekan Bidang Kemahasiswaan FT UNM untuk mendapatkan tanda tangan di surat keterangan aktif kuliah",
+
+				"Persyaratan untuk mengurus surat keterangan aktif kuliah yaitu : \n1. Mahasiswa dapat mengunjungi web sikemal untuk mengajukan permintaan surat (Surat Keterangan Aktif Kuliah), \n2. Mahasiswa dapat mengakses link sikemal : http://kemahasiswaan.ft.unm.ac.id/ , \n3. Mahasiswa kemudian diminta untuk melakukan registrasi akun lalu login, \n4. setelah mahasiswa melakukan registrasi/login, mahasiswa dapat memilih untuk mengajukan surat permohonan lalu menunggu beberapa saat untuk dapat di acc dari operator, \n5. Pada saat mahasiswa mengajukan surat permohonan, mahasiswa di minta untuk melampirkan surat bukti pembayaran UKT terakhir dalam bentuk pdf, \n6. Setelah mahasiswa mengajukan dan melengkapi serta telah di acc oleh operator maka akan muncul keterangan cetak yang kemudian mahasiswa diminta untuk mencetak surat tersebut, \n7. Tahap terakhir setelah mahasiswa mencetak surat, kemudian surat tersebut dibawa kepada WD3 atau Wakil Dekan Bidang Kemahasiswaan FT UNM untuk mendapatkan tanda tangan di surat keterangan aktif kuliah",
+
+				"Tentu! kamu dapat mengurus surat keterangan kuliah dengan mengikuti langkah-langkah berikut: \n1. Mahasiswa dapat mengunjungi web sikemal untuk mengajukan permintaan surat (Surat Keterangan Aktif Kuliah), \n2. Mahasiswa dapat mengakses link sikemal : http://kemahasiswaan.ft.unm.ac.id/ , \n3. Mahasiswa kemudian diminta untuk melakukan registrasi akun lalu login, \n4. setelah mahasiswa melakukan registrasi/login, mahasiswa dapat memilih untuk mengajukan surat permohonan lalu menunggu beberapa saat untuk dapat di acc dari operator, \n5. Pada saat mahasiswa mengajukan surat permohonan, mahasiswa di minta untuk melampirkan surat bukti pembayaran UKT terakhir dalam bentuk pdf, \n6. Setelah mahasiswa mengajukan dan melengkapi serta telah di acc oleh operator maka akan muncul keterangan cetak yang kemudian mahasiswa diminta untuk mencetak surat tersebut, \n7. Tahap terakhir setelah mahasiswa mencetak surat, kemudian surat tersebut dibawa kepada WD3 atau Wakil Dekan Bidang Kemahasiswaan FT UNM untuk mendapatkan tanda tangan di surat keterangan aktif kuliah"
+			]
+		},
+		{
+			"tag": "Program_Kampus",
+			"patterns": [
+				"Bagaimana saya bisa mendapatkan bimbingan tentang peluang karir dan magang?",
+				"Apa saja program kampus yang sedang berjalan?",
+				"Apakah ada program kampus yang akan datang?",
+				"Bagaimana saya dapat mengikuti program kampus?",
+				"Apa saja persyaratan untuk mengikuti program kampus"
+			],
+			"responses": [
+				" Yaaa, kamu dapat mengetahui lebih lanjut mengenai program kampus yang sedang berjalan maupun yang akan datang dapat mengunjungi website FT UNM",
+				" Mahasiswa dapat mengakses website tersebut melalui link berikut : https://ft.unm.ac.id/ ",
+				" Yupp kalian bisa mengetahui tentang program kampus lebih lengkapnya melalui website FT atau dapat mengakses link berikut : https://ft.unm.ac.id/",
+				" Tentu saja!! teman-teman dapat mengakses link : https://ft.unm.ac.id/ untuk mengetahui lebih lanjut untuk program kampus yang tersedia ",
+				" haii!, terimakasih atas pertanyaannya jika kalian ingin mengetahui lebih lanjut mengenai program kampus. Teman-teman dapat mengunjungi link berikut : https://ft.unm.ac.id/ "
+			]
+		}
+	]
+}
